@@ -15,7 +15,7 @@ A sleek, dark-themed personal portfolio website for **Gulshan Tahzeeba**, a Word
 - **Glassmorphic contact form** — styled contact form ready to connect to a form backend (e.g. Formspree)
 - **Accessible** — visible keyboard focus states and `prefers-reduced-motion` support
 
-## Sections
+## Site Map
 
 1. **Hero** — Introduction
 2. **Professional Summary** — About
@@ -25,7 +25,7 @@ A sleek, dark-themed personal portfolio website for **Gulshan Tahzeeba**, a Word
 6. **Work Experience** — Freelance & internship history
 7. **Contact** — Contact form, email, and social links
 
-## Site Map
+## Sections
 ## HEADER:
         <img width="1404" height="86" alt="image" src="https://github.com/user-attachments/assets/35b0814c-e4c4-47a9-a560-2b9c56165f70" />
 
