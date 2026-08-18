@@ -477,7 +477,7 @@ const storySlides = [
     text: 'Got a project, a role, or just a question? My inbox is always open — gulshantahzeeba.kir@gmail.com'
   },
   {
-    img: 'assets/Niqab.png',
+    img: 'assets/About.png',
     eyebrow: 'the end',
     title: 'Thanks for stopping by',
     text: 'That\'s my story so far. Tap below to explore the full portfolio.',
