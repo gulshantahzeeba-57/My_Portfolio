@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills — Gulshan Tahzeeba</title>
+  <link rel="shortcut icon" href="assets/GUL.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <div class="loader-avatar-ring">
+        <img src="assets/Hero.png" alt="Loading">
+      </div>
+      <span class="loader-text">loading&hellip;</span>
+    </div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">Gulshan<span class="logo-dot">.dev</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skills.html" class="active-link">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a class="mode-btn" href="assets/CV.pdf" download="Gulshan-Tahzeeba-CV.pdf" aria-label="Download CV"><i
+          class="fa-solid fa-file-arrow-down"></i> CV</a>
+      <button class="mode-btn" id="storyModeBtn" aria-label="Open story mode"><i class="fa-solid fa-book-open"></i>
+        Story</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <span class="toggle-track">
+          <span class="toggle-thumb" id="toggleThumb"><i class="fa-solid fa-moon"></i></span>
+        </span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ STORY MODE OVERLAY ============ -->
+  <div class="story-overlay" id="storyOverlay">
+    <div class="story-progress" id="storyProgress"></div>
+    <span class="story-slide-counter" id="storyCounter">1 / 11</span>
+    <button class="story-close" id="storyClose" aria-label="Close story, go to portfolio"><i
+        class="fa-solid fa-xmark"></i> Portfolio Mode</button>
+    <div class="story-stage" id="storyStage">
+      <!-- slides injected by JS -->
+    </div>
+    <p class="story-tap-hint">tap sides or use arrow keys to navigate</p>
+    <button class="story-nav story-nav-prev" id="storyPrev" aria-label="Previous slide"><i
+        class="fa-solid fa-chevron-left"></i></button>
+    <button class="story-nav story-nav-next" id="storyNext" aria-label="Next slide"><i
+        class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <section class="skills" id="skills">
+    <p class="eyebrow">Skills</p>
+    <h2 class="section-title split-text">What I bring to a project</h2>
+    <p class="skills-lead">
+      A mix of frontend build skills, WordPress/WooCommerce expertise, and the
+      marketing side most developers skip &mdash; lead generation, content, and
+      social strategy.
+    </p>
+
+    <div class="sticky-layout">
+      <div>
+        <div class="skill-groups">
+
+          <div class="skill-group-card spotlight-card">
+            <div class="skill-group-icon"><i class="fa-solid fa-code"></i></div>
+            <h3>Web Development</h3>
+            <p>HTML5, CSS3, JavaScript, responsive layouts, and clean styling practices.</p>
+            <div class="skill-group-tags">
+              <span class="pill pill-sm">HTML5</span>
+              <span class="pill pill-sm">CSS3</span>
+              <span class="pill pill-sm">JavaScript</span>
+            </div>
+          </div>
+
+          <div class="skill-group-card spotlight-card">
+            <div class="skill-group-icon"><i class="fa-brands fa-wordpress"></i></div>
+            <h3>WordPress &amp; WooCommerce</h3>
+            <p>Elementor expertise, online store setup, theme customization, and plugin configuration.</p>
+            <div class="skill-group-tags">
+              <span class="pill pill-sm">WordPress</span>
+              <span class="pill pill-sm">WooCommerce</span>
+              <span class="pill pill-sm">Elementor</span>
+            </div>
+          </div>
+
+          <div class="skill-group-card spotlight-card">
+            <div class="skill-group-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+            <h3>Lead Generation</h3>
+            <p>Finding and reaching high-quality prospects through web scraping and verified databases.</p>
+            <div class="skill-group-tags">
+              <span class="pill pill-sm">Web Scraping</span>
+              <span class="pill pill-sm">Email Marketing</span>
+            </div>
+          </div>
+
+          <div class="skill-group-card spotlight-card">
+            <div class="skill-group-icon"><i class="fa-solid fa-hashtag"></i></div>
+            <h3>Social Media Marketing</h3>
+            <p>Content strategy and relationship-building with potential clients to boost brand value.</p>
+            <div class="skill-group-tags">
+              <span class="pill pill-sm">Strategy</span>
+              <span class="pill pill-sm">Engagement</span>
+            </div>
+          </div>
+
+          <div class="skill-group-card spotlight-card">
+            <div class="skill-group-icon"><i class="fa-solid fa-pen-nib"></i></div>
+            <h3>Content Writing</h3>
+            <p>Writing impactful, SEO-friendly copy that builds relationships and holds attention.</p>
+            <div class="skill-group-tags">
+              <span class="pill pill-sm">SEO Copy</span>
+              <span class="pill pill-sm">Blogging</span>
+            </div>
+          </div>
+
+          <div class="skill-group-card spotlight-card">
+            <div class="skill-group-icon"><i class="fa-solid fa-terminal"></i></div>
+            <h3>CS Fundamentals</h3>
+            <p>C++ and Java (OOP) basics, MySQL, and Git/GitHub version control.</p>
+            <div class="skill-group-tags">
+              <span class="pill pill-sm">C++</span>
+              <span class="pill pill-sm">Java (OOP)</span>
+              <span class="pill pill-sm">MySQL</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="sticky-panel">
+        <div class="lanyard-wrap idle-swing">
+          <div class="lanyard-strap"></div>
+          <div class="lanyard-clip"></div>
+          <div class="lanyard-card">
+            <div class="lanyard-hole"></div>
+            <img src="assets/Skills.png" alt="Illustration of Gulshan with code, WordPress and web icons">
+            <h4>Gulshan Tahzeeba</h4>
+            <p>Skills & Toolbelt</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="eyebrow" style="margin-top:44px;">Toolbelt</p>
+    <div class="marquee">
+      <div class="marquee-track">
+        <span class="pill">HTML5</span>
+        <span class="pill">CSS3</span>
+        <span class="pill">JavaScript</span>
+        <span class="pill">WordPress</span>
+        <span class="pill">WooCommerce</span>
+        <span class="pill">Elementor</span>
+        <span class="pill">MySQL</span>
+        <span class="pill">Git &amp; GitHub</span>
+        <span class="pill">C++</span>
+        <span class="pill">Java (OOP)</span>
+        <span class="pill">Web Scraping</span>
+        <span class="pill">Email Marketing</span>
+        <span class="pill">AI Power User</span>
+        <span class="pill">HTML5</span>
+        <span class="pill">CSS3</span>
+        <span class="pill">JavaScript</span>
+        <span class="pill">WordPress</span>
+        <span class="pill">WooCommerce</span>
+        <span class="pill">Elementor</span>
+        <span class="pill">MySQL</span>
+        <span class="pill">Git &amp; GitHub</span>
+        <span class="pill">C++</span>
+        <span class="pill">Java (OOP)</span>
+        <span class="pill">Web Scraping</span>
+        <span class="pill">Email Marketing</span>
+        <span class="pill">AI Power User</span>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p data-edit="footer-copyright">&copy; 2026 Gulshan Tahzeeba &mdash; built with HTML, CSS &amp; JavaScript</p>
+    <div class="footer-socials">
+      <a href="https://github.com/gulshantahzeeba-57" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>
+        GitHub</a>
+      <a href="mailto:gulshantahzeeba.kir@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="admin.html" style="opacity:.35;"><i class="fa-solid fa-lock"></i> Admin</a>
+    </div>
+  </footer>
+
+  <!-- ============ CHATBOT WIDGET ============ -->
+  <button class="chat-fab" id="chatFab" aria-label="Open chat assistant">
+    <i class="fa-solid fa-comment-dots"></i>
+  </button>
+
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <span class="chat-header-title">Ask about Gulshan</span>
+      <button class="chat-close" id="chatClose" aria-label="Close chat">×</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">
+        Hi! Ask me about Gulshan's skills, projects, education, experience, or how to get in touch.
+      </div>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" placeholder="Type a message..." autocomplete="off">
+      <button id="chatSend" aria-label="Send message"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script src="content-apply.js"></script>
+  <script src="custom-cursor.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
