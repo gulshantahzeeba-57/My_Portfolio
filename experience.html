@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experience — Gulshan Tahzeeba</title>
+  <!-- Browser Tab Favicon (With Border) -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><circle cx='256' cy='256' r='200' fill='%23d9f8e4' stroke='%2310b981' stroke-width='24'/><circle cx='256' cy='256' r='90' fill='%2310b981'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <div class="loader-avatar-ring">
+        <img src="assets/Hero.png" alt="Loading">
+      </div>
+      <span class="loader-text">loading&hellip;</span>
+    </div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <a href="index.html" class="logo">Gulshan<span class="logo-dot">.dev</span></a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html" class="active-link">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a class="mode-btn" href="assets/CV.pdf" download="Gulshan-Tahzeeba-CV.pdf" aria-label="Download CV"><i
+          class="fa-solid fa-file-arrow-down"></i> CV</a>
+      <button class="mode-btn" id="storyModeBtn" aria-label="Open story mode"><i class="fa-solid fa-book-open"></i>
+        Story</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark and light mode">
+        <span class="toggle-track">
+          <span class="toggle-thumb" id="toggleThumb"><i class="fa-solid fa-moon"></i></span>
+        </span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ STORY MODE OVERLAY ============ -->
+  <div class="story-overlay" id="storyOverlay">
+    <div class="story-progress" id="storyProgress"></div>
+    <span class="story-slide-counter" id="storyCounter">1 / 11</span>
+    <button class="story-close" id="storyClose" aria-label="Close story, go to portfolio"><i
+        class="fa-solid fa-xmark"></i> Portfolio Mode</button>
+    <div class="story-stage" id="storyStage">
+      <!-- slides injected by JS -->
+    </div>
+    <p class="story-tap-hint">tap sides or use arrow keys to navigate</p>
+    <button class="story-nav story-nav-prev" id="storyPrev" aria-label="Previous slide"><i
+        class="fa-solid fa-chevron-left"></i></button>
+    <button class="story-nav story-nav-next" id="storyNext" aria-label="Next slide"><i
+        class="fa-solid fa-chevron-right"></i></button>
+  </div>
+
+  <section class="experience" id="experience">
+    <p class="eyebrow">Experience</p>
+    <h2 class="section-title split-text">Where I&rsquo;ve worked</h2>
+
+    <div class="sticky-layout">
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2024 &ndash; Present</p>
+          <h3>WordPress Developer</h3>
+          <span class="role-org">Freelance</span>
+          <ul>
+            <li>Built and customized 10+ WordPress/WooCommerce websites using Elementor for client and practice projects
+            </li>
+            <li>Delivered responsive, SEO-friendly websites, managing content updates and optimizing site speed</li>
+            <li>Worked directly with clients to translate requirements into functional, user-friendly websites</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">Nov 2024 &ndash; Jul 2025</p>
+          <h3>Computer &amp; Coding Instructor</h3>
+          <span class="role-org">Leadvora</span>
+          <ul>
+            <li>Taught computer basics, including MS Office and internet usage, to students</li>
+            <li>Introduced students to coding fundamentals and cybersecurity concepts</li>
+            <li>Helped students build foundational digital literacy skills</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">Jan 2025 &ndash; May 2025</p>
+          <h3>Lead Generation Specialist</h3>
+          <span class="role-org">Cyntik</span>
+          <ul>
+            <li>Generated approximately 30,000 leads through targeted social media outreach and web scraping</li>
+            <li>Converted leads into sales through relationship-building and consistent follow-up</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">Jul 2026 &ndash; Sep 2026 (Expected)</p>
+          <h3>Web Developer (Intern)</h3>
+          <span class="role-org">Vartex Soft</span>
+          <ul>
+            <li>Designing and implementing clean, responsive interface layouts from scratch</li>
+            <li>Building and deploying the company's official business website, focused on fast load speeds</li>
+            <li>Translating brand identity into functional HTML and semantic CSS structures</li>
+          </ul>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">Jul 2026 &ndash; Present</p>
+          <h3>WordPress Developer (Instructor)</h3>
+          <span class="role-org">Vartex Soft</span>
+          <ul>
+            <li>Teaching foundational WordPress development, theme customization, and Elementor layout design</li>
+            <li>Guiding students in building and launching their first responsive landing pages</li>
+            <li>Simplifying complex web design concepts into clear, engaging lessons</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="sticky-panel">
+        <div class="lanyard-wrap idle-swing">
+          <div class="lanyard-strap"></div>
+          <div class="lanyard-clip"></div>
+          <div class="lanyard-card">
+            <div class="lanyard-hole"></div>
+            <img src="assets/Workexp.png" alt="Illustration of Gulshan holding a laptop">
+            <h4>Gulshan Tahzeeba</h4>
+            <p>Work Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p data-edit="footer-copyright">&copy; 2026 Gulshan Tahzeeba &mdash; built with HTML, CSS &amp; JavaScript</p>
+    <div class="footer-socials">
+      <a href="https://github.com/gulshantahzeeba-57" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>
+        GitHub</a>
+      <a href="mailto:gulshantahzeeba.kir@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      <a href="admin.html" style="opacity:.35;"><i class="fa-solid fa-lock"></i> Admin</a>
+    </div>
+  </footer>
+
+  <!-- ============ CHATBOT WIDGET ============ -->
+  <button class="chat-fab" id="chatFab" aria-label="Open chat assistant">
+    <i class="fa-solid fa-comment-dots"></i>
+  </button>
+
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <span class="chat-header-title">Ask about Gulshan</span>
+      <button class="chat-close" id="chatClose" aria-label="Close chat">×</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-msg bot">
+        Hi! Ask me about Gulshan's skills, projects, education, experience, or how to get in touch.
+      </div>
+    </div>
+    <div class="chat-input-row">
+      <input type="text" id="chatInput" placeholder="Type a message..." autocomplete="off">
+      <button id="chatSend" aria-label="Send message"><i class="fa-solid fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script src="content-apply.js"></script>
+  <script src="custom-cursor.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
