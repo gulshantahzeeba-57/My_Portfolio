@@ -3079,11 +3079,11 @@ body.light-mode .chat-close {
 
 body.light-mode .chat-msg.bot {
   background-color: #e8f5f0;
-  border: 1px solid #cdeee1;
+  border: 1px solid #000000;
 }
 
 body.light-mode .chat-msg.user {
-  background-color: #039464;
+  background-color: #5fcfa4;
   color: #ffffff;
 }
 
