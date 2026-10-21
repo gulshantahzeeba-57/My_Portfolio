@@ -2703,7 +2703,7 @@ body.light-mode .btn-primary:hover {
 
 body.light-mode .btn-outline {
   border: 1.5px solid #cdeee1;
-  color: #0a0a0a;
+  color: #000000;
 }
 
 body.light-mode .btn-outline:hover {
