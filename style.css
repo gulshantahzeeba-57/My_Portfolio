@@ -1840,7 +1840,7 @@ body.light-mode .hero-aurora {
 .chat-msg.bot {
   background-color: #150a1e;
   border: 1px solid #134031;
-  color: #134031;
+  color: #ffffff;
   align-self: flex-start;
 }
 
