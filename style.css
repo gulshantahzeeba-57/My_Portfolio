@@ -1863,7 +1863,7 @@ body.light-mode .hero-aurora {
   border: 1px solid #134031;
   border-radius: 8px;
   padding: 10px 12px;
-  color: #ffffff;
+  color: #000000;
   font-family: "Inter", sans-serif;
   font-size: 0.87rem;
 }
